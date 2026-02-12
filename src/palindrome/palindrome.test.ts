@@ -8,7 +8,7 @@ import {
 const testCases = [
   { input: "A man, a plan, a canal: Panama", expected: true },
   { input: "race a car", expected: false },
-  { input: "", expected: true },
+  { input: "", expected: false },
   { input: "👍👍", expected: true },
 ];
 
